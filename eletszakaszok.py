@@ -20,19 +20,21 @@ elif eletkor > 65:
 #------------------------------------------------------------------------------------------------------------
 
 
-nev = (input('Kérek egy nevet: '))
-kor = int(input('Kérek egy életkort: '))
+nev = (input('Adja meg a keresztnevét: '))
+kor = int(input('Adja meg az életkorát: '))
 if kor < 1:
-    print('A kora alapján',nev,'csecsemő')
+    print('A kora alapján',nev,'csecsemő!')
 elif kor < 6:
-        print('A kora alapján',nev,'kisgyerek')
+        print('A kora alapján',nev,'kisgyerek!')
 elif kor < 12:
-        print('A kora alapján',nev,'gyerek')
+        print('A kora alapján',nev,'gyerek!')
 elif kor < 16:
-        print('A kora alapján',nev,'serdülő')
+        print('A kora alapján',nev,'serdülő!')
 elif kor < 25:
-        print('A kora alapján',nev,'ifjú')
+        print('A kora alapján',nev,'ifjú!')
 elif kor < 65:
-        print('A kora alapján',nev,'felnőtt')
-else:
-        print('A kora alapján',nev,'nyugdíjas')
+        print('A kora alapján',nev,'felnőtt!')
+#else
+     #   print('A kora alapján',nev,'nyugdíjas!')
+elif kor >= 65:
+    print(f"A kora alapján {nev} nyugdíjas!")
