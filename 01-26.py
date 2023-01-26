@@ -20,3 +20,4 @@ def koszont():
     print('Üdv a fedélzeten!')
 def koszont_nevvel(nev):
     print(f' Szia ' + nev + ', üdv a fedélzeten!')
+koszont_nevvel('Ádám')
